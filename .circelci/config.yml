@@ -6,3 +6,4 @@ jobs:
     steps:
       - checkout
       - run: md5sum ms-playwright
+      - run: echo "hello"
